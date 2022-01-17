@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main-card{
+    height: 550px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.main-card img{
+    max-width: 90%;
+    max-height: 70%;
+    border-radius: 2%;
+    
+    margin-bottom: -4rem;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.card-info h1{
+    color: white;
+    font-size: 24px;
+    
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    align-self: flex-start;
+}
+
+.card-info h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-info p{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1rem;
+}
+
+.card-price{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+}
+
+.eth{
+    margin-left: -3.5rem;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.days{
+    margin-left: -3.5rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.card-price img{
+    margin: 0;
+    padding: 0;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -1rem;
+    width: 100%;
+}
+
+.card-footer img{
+    max-width: 15%;
+    height: auto;
+    margin: 0 1rem;
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.card-footer span{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.card-footer b{
+    color: white;
+    font-weight: 300;
+}
+
+.card-footer b:hover{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    cursor: pointer;
+}
